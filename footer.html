@@ -1,0 +1,50 @@
+<footer class="hfooter" style="
+padding: 5rem 1.5rem;
+background-color: #444;
+color: hsla(0, 0%, 100%, 0.97);" align="center">
+
+<div>
+    <p style="display: block; color: rgba(255,255,255,.8); text-decoration: none; margin: 0 -1rem; font-family: Montserrat,sans-serif; ">
+        © Copyright 
+        <script type="text/javascript">
+            //页面加载调用
+            now_time();
+            //now_time方法
+            function now_time(){
+                var date = document.write(new Date().getFullYear());
+                document.getElementById("year").innerHTML = date;
+            }
+        </script>
+    <a style="color: rgba(255,255,255,.8); text-decoration: none; font-family: Montserrat,sans-serif; "
+    href="http://wiki.matce.cn/">
+        Afternoon wiki
+    </a>
+    <br>
+
+      <script type="text/javascript">
+        function runTime(y=1970,m=0,d=1,h=0,mm=0,s=0){
+          window.setTimeout(function(){runTime(y,m,d,h,mm,s)}, 1000);
+          var diff = new Date() - new Date(y,m-1,d,h,mm,s);
+          //document.write(diff);
+          var days = Math.floor(diff/(24*3600*1000));
+          var hours = Math.floor((diff%(24*3600*1000))/(3600*1000));
+          var minutes = Math.floor(diff%(3600*1000)/(60*1000));
+          var seconds = Math.floor(diff%(60*1000)/1000);
+          if(document.getElementById("siteTime"))
+             document.getElementById("siteTime").innerHTML=days+" 天 "+hours+" 小时 "+minutes+" 分 "+seconds+" 秒 ";
+          else
+             document.write('<span id="siteTime">'+days+" 天 "+hours+" 小时 "+minutes+" 分 "+seconds+" 秒 </span>");
+        }
+      </script>
+      <p style="margin: 0; display: block; color: rgba(255,255,255,.8); text-decoration: none; font-family: Montserrat,sans-serif; ">
+      百科已平稳运行 <script>runTime(2020,1,6,17,18,00);</script></p>
+
+    <br>
+        <a style="display: block; color: rgba(255,255,255,.8); text-decoration: none; margin: .2rem 0; font-family: Montserrat,sans-serif;" 
+        href="http://beian.miit.gov.cn/">
+        琼ICP备20000425号
+        </a>
+    </p>
+</div>
+
+</footer>
