@@ -20,6 +20,7 @@ p {
 	background-color: #00FFAA;
 	background-image: url("https://content.codecademy.com/projects/make-a-website/lesson-2/bg.jpg");
 	background-size: cover;
+	color: #ffffff;
 }
 
 .nav {
