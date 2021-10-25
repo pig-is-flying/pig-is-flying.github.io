@@ -18,4 +18,5 @@ p {
 
 .container {
 	background-image: url("https://www.z4a.net/images/2021/10/25/roses-tremieres-hollyhocks-1884.jpg");
+	background-size: cover;
 }
