@@ -17,7 +17,8 @@ p {
 }
 
 .container {
-	
+	background-color: #00FFAA;
+	background-image: url("https://content.codecademy.com/projects/make-a-website/lesson-2/bg.jpg");
 }
 
 .nav {
@@ -25,5 +26,5 @@ p {
 }
 
 .main {
-	background-image: url("https://content.codecademy.com/projects/make-a-website/lesson-2/bg.jpg");
+	
 }
