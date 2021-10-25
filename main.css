@@ -7,6 +7,8 @@ body {
 	background-image: url("https://www.z4a.net/images/2021/10/25/7a28bd1agw1f4963vci20j20xc140k1f.jpg");
 	background-attachment: fixed;
 	background-color: #00FFAA;
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 h1 {
