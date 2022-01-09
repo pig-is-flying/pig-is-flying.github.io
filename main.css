@@ -6,28 +6,7 @@ body {
 	text-align: center;
 }
 
-h1 {
-	color: #ffffff;
-	font-size: 56px;
-}
-
-p {
-	color: #ffffff;
-	font-size: 2em;
-}
-
-.container {
-	
-}
-
-.nav {
-
-}
-
 .main {
-	background-image: url("https://www.z4a.net/images/2021/10/25/7a28bd1agw1f4963vci20j20xc140k1f.jpg");
-	background-position: center top;
-	background-size: cover;
 	padding: 250px 0;
 	margin: 30px;
 	text-shadow: 0 2px #000000;
