@@ -12,3 +12,9 @@
 .main {
 	width: 80%;
 }
+
+@media screen and (max-width: 600px) {
+  .menu, .main {
+    width: 100%;
+  }
+}
